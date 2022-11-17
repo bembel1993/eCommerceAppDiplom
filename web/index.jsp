@@ -3,28 +3,28 @@
 <%@ page import="java.sql.*" %>
 <!DOCTYPE html>
 <head>
-<!-- Importing all ui libs -->
-<link href="assets/css/font-awesome.css" rel="stylesheet"/>
-<link href="assets/css/style.css" rel="stylesheet"/>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<script src="js/simpleCart.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
-      rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-<script src="js/jquery.easing.min.js"></script>
-<script src='../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-<script src="../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+    <!-- Importing all ui libs -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/simpleCart.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="js/jquery.easing.min.js"></script>
+    <script src='../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <script src="../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
     <style>
-    body {
-        background-color: mintcream;
-    }
-</style>
+        body {
+            background-color: mintcream;
+        }
+    </style>
 
 </head>
 <body>
@@ -83,28 +83,32 @@
                 <li><img class="img-responsive" src="assets/img/7.jpg" alt="Dummy Image"/></li>
             </ul>
             <div class="script-wrap">
-               <!-- <ul class="script-group">
-                    <li>
-                        <div class="inner-script">
-                            <img class="img-responsive" src="assets/img/s22.png" alt="Dummy Image"/>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="inner-script">
-                            <img class="img-responsive" src="assets/img/asus.png" alt="Dummy Image"/>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="inner-script">
-                            <img class="img-responsive" src="assets/img/apple.png" alt="Dummy Image"/>
-                        </div>
-                    </li>
-                </ul>-->
+                <!-- <ul class="script-group">
+                     <li>
+                         <div class="inner-script">
+                             <img class="img-responsive" src="assets/img/s22.png" alt="Dummy Image"/>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="inner-script">
+                             <img class="img-responsive" src="assets/img/asus.png" alt="Dummy Image"/>
+                         </div>
+                     </li>
+                     <li>
+                         <div class="inner-script">
+                             <img class="img-responsive" src="assets/img/apple.png" alt="Dummy Image"/>
+                         </div>
+                     </li>
+                 </ul>-->
                 <div class="slide-controller">
-                    <a href="#" class="btn-prev"><p><span class = "glyphicon glyphicon-circle-arrow-left fa-2x" alt="Prev Slide"></span></p></a>
-                    <a href="#" class="btn-play"><p><span class = "glyphicon glyphicon-play-circle fa-2x" alt="Start Slide"></span></p></a>
-                    <a href="#" class="btn-pause"><p><span class = "glyphicon glyphicon-pause fa-2x" alt="Pause Slide"></span></p></a>
-                <a href="#" class="btn-next"><p><span class = "glyphicon glyphicon-circle-arrow-right fa-2x" alt="Next Slide"></span></p></a>
+                    <a href="#" class="btn-prev"><p><span class="glyphicon glyphicon-circle-arrow-left fa-2x"
+                                                          alt="Prev Slide"></span></p></a>
+                    <a href="#" class="btn-play"><p><span class="glyphicon glyphicon-play-circle fa-2x"
+                                                          alt="Start Slide"></span></p></a>
+                    <a href="#" class="btn-pause"><p><span class="glyphicon glyphicon-pause fa-2x"
+                                                           alt="Pause Slide"></span></p></a>
+                    <a href="#" class="btn-next"><p><span class="glyphicon glyphicon-circle-arrow-right fa-2x"
+                                                          alt="Next Slide"></span></p></a>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -150,11 +154,20 @@
                 <tbody>
                 <!--   for (Todo todo: todos) {  -->
                 <tr>
-                    <td><h4><font color="black"><b><%=retriveProduct.getString("name")%></b></font></h4>
+                    <td><h4>
+                        <font color="black">
+                            <img width="30%" height="30%" src="<%=retriveProduct.getString("product_img_source")%>"alt="product_image" /></a>
+                            <b>
+                                <%=retriveProduct.getString("name")%>
+                            </b>
+                        </font>
+                    </h4>
                     </td>
-                    <td><h4><font color="black"><%=retriveProduct.getString("product_category")%></font></h4>
+                    <td><h4><font color="black"><%=retriveProduct.getString("product_category")%>
+                    </font></h4>
                     </td>
-                    <td><h5><font color="black"><%=retriveProduct.getString("price")%></font></h5>$.
+                    <td><h5><font color="black"><%=retriveProduct.getString("price")%>
+                    </font></h5>$.
                     </td>
                     <!--     <td>
                              <input type="submit" value="Add to cart" class="btn btn-warning"
