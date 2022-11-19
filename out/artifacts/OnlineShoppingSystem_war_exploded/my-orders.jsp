@@ -117,7 +117,8 @@
             <td class="invert"><h4><font color="black"><b><%=totalProduct.getString(9)%>
             </b></font></h4>
             </td>
-            <td class="invert"><h4><font color="black"><%=totalProduct.getString(10)%>
+            <td class="invert"><h4><font color="black">
+                <%=totalProduct.getString(10)%>
             </font></h4>
             </td>
             <td class="invert"><h4><font color="black"><%=totalProduct.getString(12)%>
@@ -161,7 +162,7 @@
     </table>
 </div>
 
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="footer2.jsp"></jsp:include>
 <%
     } else {
         response.sendRedirect("index.jsp");

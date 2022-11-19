@@ -20,6 +20,7 @@
     <script src="js/jquery.easing.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/Header-Picture.css">
 </head>
 <body>
 <%
@@ -51,7 +52,11 @@
                         <form role="form" action="AddProducts" method="post"
                               enctype="multipart/form-data">
                             <div class="form-group">
-                                <label>Enter Name</label> <input class="form-control" type="text" name="pname"
+                                <label>Enter Name</label> <input class="form-control" type="text" name="nameprod"
+                                                                 required/>
+                            </div>
+                            <div class="form-group">
+                                <label>Enter Code</label> <input class="form-control" type="text" name="code"
                                                                  required/>
                             </div>
                             <div class="form-group">
@@ -70,10 +75,17 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Product Category</label> <input class="form-control" type="text" name="category"
-                                                                       required/>
+                                <label>Product Category</label>
+                                <select class="form-control" name="category" required>
+                                    <option>Smartphone</option>
+                                    <option>Laptop</option>
+                                    <option>Console</option>
+                                </select>
                             </div>
-
+                            <div class="form-group">
+                                <label>Product image source</label>
+                                <input class="form-control" type="text" name="product_img_source" required/>
+                            </div>
                             <button type="submit" class="btn btn-success"
                                     onclick="return confirm('Are you sure Do you want to add this product?');">Add
                                 Product
@@ -86,7 +98,7 @@
         </div>
     </div>
 </div>
-<jsp:include page="footer.jsp"></jsp:include>
+
 <script src="assets/js/jquery-1.10.2.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/custom.js"></script>

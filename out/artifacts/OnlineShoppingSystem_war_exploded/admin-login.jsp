@@ -20,9 +20,10 @@
         <script src="js/jquery.easing.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/Header-Picture.css">
     </head>
     <body>
-        <section class="menu-section">
+        <section class="menu-section" id="navigation-purple">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -72,7 +73,9 @@
                 </div>
             </div>
         </div>
-        <jsp:include page="footer.jsp"></jsp:include>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
         <script src="assets/js/jquery-1.10.2.js"></script>
         <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/custom.js"></script>

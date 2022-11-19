@@ -129,3 +129,25 @@ AUTO_INCREMENT=8
 
 insert into tblproduct(active,code,description,name, price, product_category,product_img_source)
 values('active', 'code', 'good stuff','iPhone 11 Pro Max 256GB',' 800','smartphone','https://cdn.tgdd.vn/Products/Images/42/210653/iphone-11-pro-max-256gb-black-600x600.jpg')
+
+insert into tblproduct(active,code,description,name, price, product_category,product_img_source)
+values('active', 'yhy', 'The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip .','MacBook Pro 16',' 1999','laptop','https://cdn21vek.by/img/galleries/7683/41/preview_b/macbookair13m22022256gbmlxw3_apple_6322cbdbb9403.jpeg');
+
+insert into tblproduct(active,code,description,name, price, product_category,product_img_source)
+values('active', 'qwer', '4G Data Capable, 3G Data Capable, HDR, LED flash, panorama, eye tracking, Bluetooth Enabled, GPS, Music Player, Video Camera, Wi-Fi Capable','Sony Xperia 1 J9110 Xperia XZ4',' 507','smartphone','https://i.ebayimg.com/images/g/S2IAAOSwgHNhHxP3/s-l500.jpg');
+
+insert into tblproduct(active,code,description,name, price, product_category,product_img_source)
+values('active', '123', 'An innovative 48MP camera for mind-blowing detail. All powered by the ultimate smartphone chip.','Samsung Galaxy S22',' 2000','smartphone','https://img.mvideo.ru/Pdb/30064084b.jpg');
+
+insert into tblproduct(active,code,description,name, price, product_category,product_img_source)
+values('active', '126', 'A magical new way to interact with iPhone. Groundbreaking safety features designed to save lives. An innovative 48MP camera for mind-blowing detail. ','iPhone 14 Pro',' 4000','smartphone','https://my-store.by/wp-content/uploads/2022/09/iphone-14-pro-max-gold.png');
+
+insert into tblproduct(active,code,description,name, price, product_category,product_img_source)
+values('active', '125', 'Lighting up your creativity is easier than ever with the powerful Vivobook Pro 16 OLED. Equipped with an 12th Gen Intel® Core™ H-series CPU, a dual-fan, triple-vented cooling system and NVIDIA® GeForce® RTX™ 3050 Ti graphic','ASUS Vivobook Pro 16 OLED',' 5000','laptop','https://img.5element.by/import/images/ut/goods/good_cf0aae53-aa96-11ec-bb95-0050560120e8/n7600pc-l2029-vivobook-pro-16x-oled-noutbuk-asus-1_600.jpg');
+
+insert into tblproduct(active,code,description,name, price, product_category,product_img_source)
+values('active', '125', 'Lighting up your creativity is easier than ever with the powerful Vivobook Pro 16 OLED. Equipped with an 12th Gen Intel® Core™ H-series CPU, a dual-fan, triple-vented cooling system and NVIDIA® GeForce® RTX™ 3050 Ti graphic','ASUS Vivobook Pro 16 OLED',' 5000','laptop','https://img.5element.by/import/images/ut/goods/good_cf0aae53-aa96-11ec-bb95-0050560120e8/n7600pc-l2029-vivobook-pro-16x-oled-noutbuk-asus-1_600.jpg');
+
+
+INSERT INTO tblproduct (`active`, `code`, `create_date`, `description`, `name`)
+VALUES ('Active', 'mnv', '2022-11-19 17:58:50', 'AMD GPU capable of 4K resolution display at up to 120 frames per second, hardware-accelerated ray tracing for realistic lighting and reflections', 'PlayStation 5');

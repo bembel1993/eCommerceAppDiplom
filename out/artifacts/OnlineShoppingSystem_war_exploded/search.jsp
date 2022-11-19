@@ -166,6 +166,7 @@
                             <input type="hidden" name="productId" value="<%=retriveProduct.getInt("id")%>">
                         </div>
                         <div class="item-info-product ">
+                            <img width="30%" height="30%" src="<%=retriveProduct.getString("product_img_source")%>"alt="product_image" /></a>
                             <h4>
                                 <%=retriveProduct.getString("name")%>
                             </h4>
@@ -190,6 +191,6 @@
     </div>
 </div>
 
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="footer2.jsp"></jsp:include>
 </body>
 </html>

@@ -155,7 +155,7 @@
     %>
     <br><br><br>
 </div>
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="footer2.jsp"></jsp:include>
 <%
     } else {
         response.sendRedirect("my-chat.jsp");

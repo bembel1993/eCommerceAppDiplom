@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <script src="js/jquery.easing.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" type="text/css" href="assets/css/Header-Picture.css">
     </head>
     <body>
         <%
@@ -95,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <jsp:include page="footer.jsp"></jsp:include>
+
             <script src="assets/js/jquery-1.10.2.js"></script>
             <script src="assets/js/bootstrap.js"></script>
             <script src="assets/js/custom.js"></script>

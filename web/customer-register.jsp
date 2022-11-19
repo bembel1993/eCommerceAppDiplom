@@ -47,7 +47,7 @@
                         </nav>
                     </div>
                     <div class="top_nav_right">
-                        <div class="cart_box_1">
+                        <div class="cart box_1">
                             <a href="checkout.jsp"> 
                             <%
                                 ResultSet resultCount = DatabaseConnection.getResultFromSqlQuery("select count(*) from tblcart where customer_id='" + session.getAttribute("id") + "'");
@@ -150,6 +150,6 @@
                 </div>
             </div>
         </div>
-        <jsp:include page="footer.jsp"></jsp:include>
+        <jsp:include page="footer2.jsp"></jsp:include>
     </body>
 </html>

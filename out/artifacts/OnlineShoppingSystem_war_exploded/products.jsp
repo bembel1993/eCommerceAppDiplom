@@ -101,10 +101,14 @@
                                 <div class="item-info-product ">
                                     <img width="30%" height="30%" src="<%=retriveProduct.getString("product_img_source")%>"alt="product_image" /></a>
                                     <h4>
-                                        <%=retriveProduct.getString("name")%>
+                                        <font color="black">
+                                            <%=retriveProduct.getString("name")%>
+                                        </font>
                                     </h4>
                                     <h5>
-                                        Category: <%=retriveProduct.getString("product_category")%>
+                                        <font color="black">
+                                            Category: <%=retriveProduct.getString("product_category")%>
+                                        </font>
                                     </h5>
                                     <div class="info-product-price">
                                         <input type="hidden" name="price" value="<%=retriveProduct.getString("price")%>"> 
@@ -122,6 +126,6 @@
                 </div>
             </div>
         </div>
-        <jsp:include page="footer.jsp"></jsp:include>
+        <jsp:include page="footer2.jsp"></jsp:include>
     </body>
 </html>

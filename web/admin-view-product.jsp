@@ -21,6 +21,7 @@
           integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <script src="js/jquery.easing.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="assets/css/Header-Picture.css">
 </head>
 <body>
 <%
@@ -45,7 +46,7 @@
                                 <thead>
                                 <tr align="center" bgcolor="black">
                                     <th>#</th>
-                                    <th>Code</th>
+                                    <th>Image</th>
                                     <th>Name</th>
                                     <th>Description</th>
                                     <th>Price ($)</th>
@@ -62,7 +63,8 @@
                                 <tr>
                                     <td><%=rs.getInt("id")%>
                                     </td>
-                                    <td><h4><font color="black"><b><%=rs.getString("code")%>
+                                    <td><h4><font color="black">
+                                        <img width="50%" height="50%" src="<%=rs.getString("product_img_source")%>"alt="product_image" /></a>
                                     </font></h4>
                                     </td>
                                     <td><h4><font color="black"><b><%=rs.getString("name")%>

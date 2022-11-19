@@ -22,6 +22,7 @@
     <script src="js/jquery.easing.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/Header-Picture.css">
 </head>
 <body>
 <%
@@ -96,7 +97,7 @@
             %>
             <br><br><br>
         </div>
-        <jsp:include page="footer.jsp"></jsp:include>
+
         <script src="assets/js/jquery-1.10.2.js"></script>
         <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/custom.js"></script>

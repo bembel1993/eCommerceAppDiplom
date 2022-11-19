@@ -20,6 +20,7 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src='../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <script src="../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+
     <style>
         body {
             background-color: mintcream;
@@ -144,7 +145,6 @@
                     <th>Name</th>
                     <th>Category</th>
                     <th>Price</th>
-                    <!--<th>Actions</th>-->
                 </tr>
                 </thead>
                 <%
@@ -183,6 +183,6 @@
         </form>
     </div>
 </div>
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="footer2.jsp"></jsp:include>
 </body>
 </html>
