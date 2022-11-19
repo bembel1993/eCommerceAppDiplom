@@ -2,3 +2,9 @@
 ____
 ## User Manual with Client Access Rights
 ![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/1.png)
+![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/2.png)
+![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/3.png)
+![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/4.png)
+__
+#### Section products of App
+![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/ourproducts.png)
