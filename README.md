@@ -11,3 +11,19 @@ ____
 ____
 #### Section products of App
 ![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/ourproducts.png)
+____
+#### Section customer login/ pass
+![Autorization](https://github.com/bembel1993/imgForDiplom/blob/main/autorization.png)
+____
+#### Sectiom my cart
+![My Cart](https://github.com/bembel1993/imgForDiplom/blob/main/cart1.png)
+![My Cart](https://github.com/bembel1993/imgForDiplom/blob/main/cart2.png)
+____
+#### Section my orders
+![My Orders](https://github.com/bembel1993/imgForDiplom/blob/main/my-orders.png)
+____
+#### Section admin autorization
+![Admin autorization](https://github.com/bembel1993/imgForDiplom/blob/main/admin-login.png)
+____
+#### Section menu admin
+![Admin menu](https://github.com/bembel1993/imgForDiplom/blob/main/admin-menu.png)
