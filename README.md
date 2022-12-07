@@ -5,11 +5,13 @@ ____
 ### Used technologies
 #### Platform - Java Enterprise Edition
 #### API - Servlet, JSP, JSTL
+#### Server - Apache Tomcat 9.0.62
 #### DB - MySQL
 #### Connect with DB - JDBC, ORM (JPA, HIBERNATE)
 #### Pattern - MVC
 #### Visual - CSS, JS, Bootstrap
 #### Scenario test - Selenium
+#### Integrated Development Environment - Intellij IDEA
 ____
 #### Start page of App
 
