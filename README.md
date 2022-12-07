@@ -11,7 +11,7 @@ ____
 #### Pattern - MVC
 #### Visual - CSS, JS, Bootstrap
 #### Scenario test - Selenium
-#### Integrated Development Environment - Intellij IDEA
+#### Integrated Development Environment - Intellij IDEA Ultimate
 ____
 #### Start page of App
 
