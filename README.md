@@ -2,6 +2,15 @@
 ____
 ## User Manual with Client Access Rights
 ____
+### Used technologies
+#### Platform - Java Enterprise Edition
+#### API - Servlet, JSP, JSTL
+#### DB - MySQL
+#### Connect with DB - JDBC, ORM (JPA, HIBERNATE)
+#### Pattern - MVC
+#### Visual - CSS, JS, Bootstrap
+#### Scenario test - Selenium
+____
 #### Start page of App
 
 ![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/1.png)
