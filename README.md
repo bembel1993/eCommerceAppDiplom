@@ -33,6 +33,8 @@ ____
 #### Section my orders
 ![My Orders](https://github.com/bembel1993/imgForDiplom/blob/main/my-orders.png)
 ____
+## User Manual with Admin Access Rights
+____
 #### Section admin autorization
 ![Admin autorization](https://github.com/bembel1993/imgForDiplom/blob/main/admin-login.png)
 ____
